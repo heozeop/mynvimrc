@@ -31,4 +31,6 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
+vim.opt.guifont = "Agave_Nerd_Font_Propo:h17"
+vim.encode="utf8"
 

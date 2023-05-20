@@ -46,3 +46,7 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+vim.keymap.set("n", "<C-b>", "<cmd>NvimTreeToggle()<CR>")
+vim.keymap.set("n", "<C-n>", "<cmd>NvimTreeFocus<CR>")
+
+
