@@ -9,8 +9,8 @@ lsp.ensure_installed({
   'dockerls',
   'docker_compose_language_service',
   'gradle_ls',
-  'pylsp',
   'jdtls',
+  'pylsp',
   'lua',
 })
 
