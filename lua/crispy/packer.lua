@@ -8,9 +8,9 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use {
-    'nvim-tree/nvim-tree.lua',
+    'nvim-tree/nvim-web-devicons',
     after = "nvim-web-devicons",
-    requires = 'nvim-tree/nvim-web-devicons',
+    requires = 'nvim-tree/nvim-tree.lua',
   }
 
   use {
@@ -42,7 +42,9 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/playground')
   use('ThePrimeagen/harpoon')
   use('mbbill/undotree')
+
   use('tpope/vim-fugitive')
+  use("akinsho/toggleterm.nvim")
 
   
   use {
