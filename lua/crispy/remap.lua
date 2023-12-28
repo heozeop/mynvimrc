@@ -47,7 +47,7 @@ end)
 
 -- nvim tree
 vim.keymap.set("n", "<C-b>", "<cmd>NvimTreeToggle()<CR>")
-vim.keymap.set("n", "<C-n>", "<cmd>NvimTreeFocus<CR>")
+vim.keymap.set("n", "<C-m>", "<cmd>NvimTreeFocus<CR>")
 
 
 -- refactoring
